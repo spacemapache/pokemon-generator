@@ -20,11 +20,7 @@ body {
 
 #card {
   position: relative;
-  background: radial-gradient(
-    circle at 50% 0%,
-    rgb(92, 178, 228) 36%,
-    #ffffff 36%
-  );
+
   width: 100%;
   padding: 30px 20px;
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
@@ -59,6 +55,8 @@ img {
   font-size: 14px;
   padding: 5px 20px;
   text-transform: capitalize;
+  border-radius: 20px;
+  color: white;
 }
 
 .stats {
@@ -69,7 +67,8 @@ img {
 }
 
 .stats p {
-  color: #30303e;
+  color: #0e0e12;
+  font-weight: 400;
 }
 
 .pokemon-name {
